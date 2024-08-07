@@ -1,0 +1,30 @@
+# Configuration file for CompleteAuth
+
+# Time in seconds that a player has to authenticate (register or login) before being kicked
+authentication-timeout-seconds: 15
+
+# Enable or disable hub teleportation for players when they join
+hub:
+  enabled: true
+  # Coordinates of the hub location where players are teleported when joining
+  world: "world" # Name of the world for the hub location
+  x: 22.0 # X coordinates of the hub location
+  y: 64.0 # Y coordinates of the hub location
+  z: 14.0 # Z coordinates of the hub location
+
+# Messages
+messages:
+  register-success: "&aRegistration successful! You can now login."
+  register-already: "&cYou are already registered."
+  register-usage: "&cUsage: /register <password>"
+  login-success: "&aLogin successful! Welcome back."
+  login-fail: "&cLogin failed! Check your password and try again."
+  login-usage: "&cUsage: /login <password>"
+  changepass-success: "&aPassword changed successfully!"
+  changepass-fail: "&cFailed to change password. Check your old password and try again."
+  changepass-usage: "&cUsage: /changepass <oldpassword> <newpassword>"
+  authentication-timeout: "&cAuthentication timeout expired. Please rejoin and authenticate."
+  login-prompt: "&cYou must login to proceed. Use /login to authenticate."
+  register-prompt: "&cYou must register to proceed. Use /register <password> to create an account."
+  premium-welcome: "&aWelcome back, premium player!"
+  premium-with-cracked: "&cThe account you are trying to use is premium, please use one another."

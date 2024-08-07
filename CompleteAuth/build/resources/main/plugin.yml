@@ -1,0 +1,11 @@
+name: CompleteAuth
+version: 1.0
+main: org.justt.completeAuth.CompleteAuth
+api-version: 1.20
+commands:
+  register:
+    description: Registers a new password
+  login:
+    description: Logs in with a registered password
+  changepass:
+    description: Changes the password
