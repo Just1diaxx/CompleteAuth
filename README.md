@@ -3,4 +3,4 @@ Authentication plugin with UUID checking.
 
 __RETIRED__
 
-**Contributing now to IAmAuth by @IAmDig_**
+**Contributing now to IamAuth by (https://github.com/IamDig)[@IamDig]**
